@@ -13,3 +13,12 @@
     height: 500px;
     background-color: lightgreen;
 }
+
+.height_900{
+    height: 900px;
+    background-color: lightgrey;
+}
+
+main section{
+    margin: 2% 0;
+}
