@@ -1,0 +1,15 @@
+/* debug class */
+.debug [class*="col-"]{
+    height: 150px;
+    background-color: pink;
+    border: 1px solid 
+}
+.height_100{
+    height: 100px;
+    background-color: orange;
+}
+
+.height_500{
+    height: 500px;
+    background-color: lightgreen;
+}
