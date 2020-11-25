@@ -22,3 +22,8 @@
 main section{
     margin: 2% 0;
 }
+
+
+.sm-hidden{
+    display: none;
+}
