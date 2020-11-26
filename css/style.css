@@ -23,6 +23,10 @@ main section{
 .sm-hidden{
     display: none;
 }
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size:15px;
+}
 
 /* ---------------------------- */
 /* START HEADER LAYOUT  */
@@ -59,6 +63,26 @@ nav.height_80 a{
     color: #142b58;
 }
 /* start jumbo layout */
+#jumbo{
+    height: 10%;
+}
 section#jumbotron {
     background-image: url('../img/bg-home-1.jpg');
+}
+
+h1 {
+    font-size: 60px;
+    color:white;
+}
+#jumbotron p {
+    color:white;
+    font-size: 20px;
+}
+
+.my_jumbo{
+    height: 80%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    background-color: black;
+    border: 1px solid white;
 }
