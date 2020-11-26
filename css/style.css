@@ -181,10 +181,6 @@ p.my_black{
     color: #00d7d2;
 }
 
-.connection_container{
-    padding: 2.5%;
-}
-
 .f_, .f_destination, .f_speed{
     font-size: 10px;
 }
