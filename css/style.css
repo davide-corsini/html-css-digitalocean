@@ -111,9 +111,7 @@ p.my_black{
 }
 
 /* start #parteners section */
-#partners {
-    background-color: #f3f5f9;
-}
+
 
 .my_height_partners_img{
     height: 100%;
@@ -141,9 +139,7 @@ p.my_black{
 /* /end deploy section */
 
 /* start graphic/design section */
-#graphic{
-    background-color: #f3f5f9;
-}
+
 
 .arrow_left i{
     position: absolute;
@@ -163,4 +159,9 @@ p.my_black{
 
 .my_padding_b{
     padding-bottom: 50px;
+}
+
+/* start feautures section */
+.my_lightgrey{
+    background-color: #f3f5f9;
 }
