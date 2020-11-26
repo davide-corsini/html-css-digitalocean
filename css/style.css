@@ -4,10 +4,6 @@
     background-color: pink;
     border: 1px solid 
 }
-.height_100{
-    height: 100px;
-    background-color: orange;
-}
 
 .height_500{
     height: 500px;
@@ -26,4 +22,37 @@ main section{
 
 .sm-hidden{
     display: none;
+}
+
+/* ---------------------------- */
+/* START HEADER LAYOUT  */
+/* ---------------------------- */
+img.logo{
+    width: 100%;
+    vertical-align: middle;
+}
+
+.my_nav_btn{
+    display: inline-block;
+    background-color: #ffffff;
+    border: 2px solid #006aff;
+    border-radius: 5px;
+    color:  #006aff;
+}
+
+.height_100{
+    height: 100px;
+    background-color: #ffffff;
+}
+nav.height_100 ul li a{
+    color: #142b58;
+    font-size: 15px;
+}
+
+nav.height_100 a{
+    line-height: 100px;
+}
+/* start jumbo layout */
+section#jumbotron {
+    background-image: url('../img/bg-home-1.jpg');
 }
