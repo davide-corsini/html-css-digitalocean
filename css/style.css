@@ -25,7 +25,9 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-size:15px;
 }
-
+.my_padding_5x{
+    padding: 5% 0;
+}
 /* ---------------------------- */
 /* START HEADER LAYOUT  */
 /* ---------------------------- */
