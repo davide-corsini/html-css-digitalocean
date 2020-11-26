@@ -112,7 +112,7 @@ p.my_black{
 
 /* start #parteners section */
 #partners {
-
+    background-color: #f3f5f9;
 }
 
 .my_height_partners_img{
@@ -128,6 +128,7 @@ p.my_black{
     height: 77px;
 }
 
+/* deploy section */
 #list_deploy li{
     padding: 4%;
     border-left: 2px solid #e5e8ed  ;
@@ -136,4 +137,30 @@ p.my_black{
 #list_deploy li:hover {
     border-left: 2px solid #006bfd;
 
+}
+/* /end deploy section */
+
+/* start graphic/design section */
+#graphic{
+    background-color: #f3f5f9;
+}
+
+.arrow_left i{
+    position: absolute;
+    top: 50%;
+    left: -5%;
+    transform: translateY(-50%);
+    font-size: 30px;
+}
+.arrow_right i{
+    position: absolute;
+    top: 50%;
+    right: -5%;
+    transform: translateY(-50%);
+    font-size: 30px;
+}
+
+
+.my_padding_b{
+    padding-bottom: 50px;
 }
