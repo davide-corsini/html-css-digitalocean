@@ -1,6 +1,6 @@
 /* debug class */
 .debug [class*="col-"]{
-    height: 150px;
+    height: 100px;
     background-color: pink;
     border: 1px solid 
 }
@@ -46,16 +46,17 @@ img.logo{
     color:  #006aff;
 }
 
-.height_80{
+.my_height_80{
     height: 80px;
     background-color: #ffffff;
+    line-height: 80px;
 }
-nav.height_80 ul li a{
+nav.my_height_80 ul li a{
     color: #142b58;
     font-size: 15px;
 }
 
-nav.height_80 a{
+nav.my_height_80 a{
     line-height: 80px;
 }
 
@@ -107,4 +108,32 @@ h1 {
 p.my_black{
     font-size: 8px;
     color: black;
+}
+
+/* start #parteners section */
+#partners {
+
+}
+
+.my_height_partners_img{
+    height: 100%;
+}
+
+#partners img{
+    line-height: 77px;
+    width: 90%;
+}
+
+.my_height_77{
+    height: 77px;
+}
+
+#list_deploy li{
+    padding: 4%;
+    border-left: 2px solid #e5e8ed  ;
+} 
+
+#list_deploy li:hover {
+    border-left: 2px solid #006bfd;
+
 }
