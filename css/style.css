@@ -165,3 +165,31 @@ p.my_black{
 .my_lightgrey{
     background-color: #f3f5f9;
 }
+
+/* #customers section */
+#customers{
+    background-color: #0030ac;
+}
+.connection{
+    border-bottom: 1.3px solid #dfe6f5;
+}
+
+.my_connection_color{
+    color: #dfe6f5;
+}
+
+.my_place_color{
+    color: #809dda;
+}
+.my_acqua_color{
+    color: #00d7d2;
+}
+
+.connection_container{
+    padding: 2.5%;
+}
+
+.f_, .f_destination, .f_speed{
+    font-size: 10px;
+}
+.f_destinatio
