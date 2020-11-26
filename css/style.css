@@ -40,17 +40,23 @@ img.logo{
     color:  #006aff;
 }
 
-.height_100{
-    height: 100px;
+.height_80{
+    height: 80px;
     background-color: #ffffff;
 }
-nav.height_100 ul li a{
+nav.height_80 ul li a{
     color: #142b58;
     font-size: 15px;
 }
 
-nav.height_100 a{
-    line-height: 100px;
+nav.height_80 a{
+    line-height: 80px;
+}
+
+.hamburger i{
+    line-height: 80px;
+    font-size: 20px;
+    color: #142b58;
 }
 /* start jumbo layout */
 section#jumbotron {

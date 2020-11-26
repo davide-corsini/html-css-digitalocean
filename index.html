@@ -7,19 +7,27 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
     integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
 </head>
 <body>
     <!-- start header -->
     <header>
-        <nav class="height_100">
+        <nav class="height_80">
             <div class="container">
                 <div class="row">
-                    <div class="col-xs-6 col-lg-2">
+                    <div class="col-xs-4 col-lg-2">
                         <a href="#">
                             <img class="logo" src="https://images.prismic.io/www-static/49aa0a09-06d2-4bba-ad20-4bcbe56ac507_logo.png?auto=compress,format" alt="logo">
                         </a>
                     </div>
-                    <div class="col-xs-6 hidden-lg">hamburger</div>
+                    <div class="col-xs-8 text-right  hidden-lg">
+                        <a class="hamburger" href="#">
+                            <i class="fas fa-bars"></i>
+                        </a>
+                        
+                    </div>
                     <div class="col-lg-4 col-lg-offset-1 visible-lg">
                         <ul class="list-inline list-unstyled text-center text-capitalize">
                             <li>
@@ -48,16 +56,22 @@
                                 <a href="#">login</a>
                             </li>
                             <li>
-                                <button type="button" class="btn btn-default btn-xs text-capitalize my_nav_btn">sign up</button>
+                                <button type="button" class="btn btn-default navbar-btn text-capitalize my_nav_btn">sign up</button>
                             </li>
                         </ul>
                     </div>
                 </div>
             </div>
         </nav>
+        <!-- /end nav -->
+
+        <!-- start jumbo -->
         <section id="jumbotron" class="debug height_500">
             <div class="container">
-                <div class="col-xs-12 col-sm-7">title</div>
+                <div class="col-xs-12 col-sm-7">
+                    <h1>The simplest cloud platform for developers & teams</h1>
+                    <p>Deploy, manage, and scale cloud applications faster and more efficiently on DigitalOcean. We make managing infrastructure easy for teams and businesses, whether you0re running one virtual machine or ten thousand.</p>
+                </div>
                 <div class="col-xs-12 col-sm-5">sign up</div>
             </div>
         </section>
