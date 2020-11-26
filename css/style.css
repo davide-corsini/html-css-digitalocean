@@ -192,4 +192,10 @@ p.my_black{
 .f_, .f_destination, .f_speed{
     font-size: 10px;
 }
-.f_destinatio
+/* /end customers section */
+
+/* start development section */
+.my_development{
+    margin: 5% 0;
+    background-color: #ffffff;
+}
