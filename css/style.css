@@ -15,10 +15,6 @@
     background-color: lightgrey;
 }
 
-main section{
-    margin: 2% 0;
-}
-
 .width_100{
     width: 100%;
 }
@@ -198,4 +194,22 @@ p.my_black{
 .my_development{
     margin: 5% 0;
     background-color: #ffffff;
+}
+/* #section get started */
+#get_started{
+    background-color: #006aff;
+}
+
+#my_btn_account{
+    background-color: #ffffff;
+    color: #006aff;
+    font-weight: 600;
+}
+/* /end section get_started */
+
+/* start footer */
+footer{
+    background-color: #031c4e;
+        color: #dfe6f5;
+
 }
