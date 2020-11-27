@@ -31,6 +31,15 @@ body {
 /* ---------------------------- */
 /* START HEADER LAYOUT  */
 /* ---------------------------- */
+header nav{
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    left:0;
+    z-index: 1;
+    background-color: #f5f8fa;
+}
 img.logo{
     width: 100%;
     vertical-align: middle;
@@ -68,7 +77,9 @@ nav.my_height_80 a{
     padding: 3%;
 }
 section#jumbotron {
+    width: 100%;
     background-image: url('../img/bg-home-1.jpg');
+    margin-top: 100px;
 }
 
 .my_jumbo{
@@ -109,20 +120,22 @@ p.my_black{
 }
 
 /* start #parteners section */
-
-
+/* #partners .row .row [class*="col-"]{
+    line-height: 80px;
+    height: 80px;
+} */
+.img_partners{
+    padding: 5% 5%;
+    height: 100px;
+    line-height: 100px;
+}
 .my_height_partners_img{
-    height: 100%;
+    width: 80%;
+    height: 80%;
 }
 
-#partners img{
-    line-height: 77px;
-    width: 90%;
-}
 
-.my_height_77{
-    height: 77px;
-}
+
 
 /* deploy section */
 #list_deploy li{
