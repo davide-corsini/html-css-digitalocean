@@ -260,6 +260,12 @@ footer{
     padding: 10%;
 }
 
-.baby-shark:active .layover_shark, .baby-shark:hover .layover_shark{
+.baby-shark:hover .layover_shark{
     display: block;
+}
+
+.baby-shark:active .layover_shark{
+    display: block;
+    background-color: blue;
+    color: white;
 }
